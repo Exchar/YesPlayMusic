@@ -11,7 +11,7 @@ if (process.env.IS_ELECTRON) {
     baseURL = process.env.VUE_APP_ELECTRON_API_URL_DEV;
   }
 } else {
-  baseURL = https://musicapi.atian.work;
+  baseURL = "https://musicapi.atian.work";
 }
 
 const service = axios.create({
